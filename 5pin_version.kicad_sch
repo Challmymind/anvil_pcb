@@ -1,0 +1,1026 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f8cbad95-1fac-4ee0-b4c1-fc27b4678331")
+	(paper "A4")
+	(title_block
+		(title "Keyboard based on STM32L0xx")
+		(date "2024-04-28")
+		(rev "0.1")
+		(company "https://github.com/Challmymind")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 160.02 111.76) (xy 160.02 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb49835-74e5-4de0-811d-c18d26247357")
+	)
+	(wire
+		(pts
+			(xy 142.24 77.47) (xy 184.15 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b85c28-2400-4468-8219-883265013ed5")
+	)
+	(wire
+		(pts
+			(xy 142.24 95.25) (xy 184.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce8f96a-6682-4779-a660-3621a9f48e6a")
+	)
+	(wire
+		(pts
+			(xy 142.24 100.33) (xy 184.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f467819-518f-4d60-9acc-9e6801827d9e")
+	)
+	(wire
+		(pts
+			(xy 142.24 97.79) (xy 184.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365a9c1f-1e8b-4f96-8aca-6defe0481431")
+	)
+	(wire
+		(pts
+			(xy 142.24 72.39) (xy 184.15 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cbe84f1-8594-4e2e-99dc-514b241287e3")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 184.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2ecd0f-cede-44ed-a226-1a24e6ca7f29")
+	)
+	(wire
+		(pts
+			(xy 162.56 109.22) (xy 162.56 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454da977-3951-47a1-b57c-f5c355023e01")
+	)
+	(wire
+		(pts
+			(xy 142.24 69.85) (xy 184.15 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521f3843-5245-4d52-9d95-35cdcc833c94")
+	)
+	(wire
+		(pts
+			(xy 142.24 109.22) (xy 162.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57996e10-1018-4f4e-9198-c8d0ace35916")
+	)
+	(wire
+		(pts
+			(xy 160.02 130.81) (xy 184.15 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba10d9a-77e4-48da-b40a-16c24e891660")
+	)
+	(wire
+		(pts
+			(xy 142.24 85.09) (xy 184.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647aa830-1683-47a8-ab40-e1f4add76a34")
+	)
+	(wire
+		(pts
+			(xy 142.24 92.71) (xy 184.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ef6967-29e6-44d3-9907-8ab3254adb96")
+	)
+	(wire
+		(pts
+			(xy 142.24 87.63) (xy 184.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de93409-984f-4e24-8958-faa535cf4fa2")
+	)
+	(wire
+		(pts
+			(xy 142.24 111.76) (xy 160.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1b5b07-2aed-4321-a89b-5e3ab405b377")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.17) (xy 184.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba01d2ca-dd24-44c5-bebf-db997969a40b")
+	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad79614-f549-4669-b448-53b5e1ece286")
+	)
+	(wire
+		(pts
+			(xy 142.24 67.31) (xy 184.15 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50eb2b1-8477-48d1-b913-f0e61f5f9e1f")
+	)
+	(wire
+		(pts
+			(xy 162.56 128.27) (xy 184.15 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a669d2-2545-45d0-8b27-22ee5d99961f")
+	)
+	(rectangle
+		(start 49.53 129.54)
+		(end 83.82 152.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2476ad4c-7a32-461c-9be3-47f1e144f99d)
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 115.57 55.88 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "2ab12258-dbfe-4a63-a3a1-8fcf89011137")
+	)
+	(text "Keyboard matrix"
+		(exclude_from_sim no)
+		(at 200.152 57.404 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "2da7982b-3d26-4b4b-9080-e26af8752dec")
+	)
+	(text "Make this connection as short as possible\n"
+		(exclude_from_sim no)
+		(at 165.608 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "372308c3-11d1-442d-a1a7-daca5d7c55a5")
+	)
+	(text "Mounting holes\n"
+		(exclude_from_sim no)
+		(at 62.484 132.334 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "3e0fd10b-8fbe-4bb4-92ba-459fc872a704")
+	)
+	(text "USB(POWER+DATA)"
+		(exclude_from_sim no)
+		(at 200.406 113.284 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "daf4f713-1869-40e2-943c-fc00e6a2c596")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 62.23 146.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a46300f-74b1-4bdf-87f0-6a7fb7db0173")
+		(property "Reference" "H3"
+			(at 60.96 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 64.77 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "stm_skeyboard"
+				(path "/f8cbad95-1fac-4ee0-b4c1-fc27b4678331"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 68.58 146.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "67971007-ca8b-4afe-aeba-8a4a84ea2420")
+		(property "Reference" "H4"
+			(at 67.31 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 71.12 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 68.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 68.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "stm_skeyboard"
+				(path "/f8cbad95-1fac-4ee0-b4c1-fc27b4678331"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 68.58 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "aecf1c2a-7f2e-474b-aefe-cc2f10a88bba")
+		(property "Reference" "H2"
+			(at 67.31 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 71.12 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "stm_skeyboard"
+				(path "/f8cbad95-1fac-4ee0-b4c1-fc27b4678331"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 62.23 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa6b47ea-fb37-41bc-9e05-937b70493303")
+		(property "Reference" "H1"
+			(at 60.96 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 64.77 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 62.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 62.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "stm_skeyboard"
+				(path "/f8cbad95-1fac-4ee0-b4c1-fc27b4678331"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 62.23)
+		(size 31.75 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "471ebd7f-24aa-4a86-aa3a-deafb21e0afc")
+		(property "Sheetname" "matrix"
+			(at 184.15 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "matrix.kicad_sch"
+			(at 184.15 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "COL4" input
+			(at 184.15 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0165d4a4-a5ea-44e7-a115-53d190502a96")
+		)
+		(pin "COL1" input
+			(at 184.15 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "45dfc078-1dea-4bf3-b1b6-62aaebcede80")
+		)
+		(pin "ROW1" output
+			(at 184.15 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "77cdec2e-26b1-4fc1-b8eb-18d5af35e6ec")
+		)
+		(pin "ROW0" output
+			(at 184.15 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ee1222ca-88ad-48bc-aecf-573a5798482f")
+		)
+		(pin "ROW2" output
+			(at 184.15 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2969b56c-5103-4520-b442-80a4ff8d1870")
+		)
+		(pin "COL0" input
+			(at 184.15 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c82496e7-36bb-40f4-8796-eb0b93d9174d")
+		)
+		(pin "COL2" input
+			(at 184.15 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "03e6a0df-de88-4ac9-8df5-c493fc6fe545")
+		)
+		(pin "COL3" input
+			(at 184.15 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "16cebe23-cbbd-421a-846e-4469baed86d1")
+		)
+		(pin "COL9" input
+			(at 184.15 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f1288025-9fb0-446f-ac18-6b14fd63fccf")
+		)
+		(pin "COL5" input
+			(at 184.15 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "72faf49a-35d8-4f46-9521-9656747bd66e")
+		)
+		(pin "COL6" input
+			(at 184.15 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02699633-4bfc-4f91-9af2-724643767498")
+		)
+		(pin "COL7" input
+			(at 184.15 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "653f4425-827d-411f-b205-3c32a96503e7")
+		)
+		(pin "COL8" input
+			(at 184.15 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "615fa330-3e82-437a-b3cb-0e73aaf629f3")
+		)
+		(instances
+			(project "5pin_version"
+				(path "/f8cbad95-1fac-4ee0-b4c1-fc27b4678331"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 119.38)
+		(size 31.75 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "58f5f93e-2d55-471f-8e8c-6f4fb02062d7")
+		(property "Sheetname" "usb"
+			(at 184.15 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 184.15 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 184.15 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d9cb9ab8-6cf8-4b56-833e-f34259f573a8")
+		)
+		(pin "USB_D-" bidirectional
+			(at 184.15 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e3349b9e-3a5f-4636-9525-0ce6f498764d")
+		)
+		(instances
+			(project "5pin_version"
+				(path "/f8cbad95-1fac-4ee0-b4c1-fc27b4678331"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 58.42)
+		(size 50.8 57.15)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "e572aac2-7f29-4ffb-8a77-de1db0d84645")
+		(property "Sheetname" "mcu"
+			(at 91.44 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 91.186 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "ROW2" input
+			(at 142.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6c799b51-d96b-4a3d-925d-5f00814e9cfc")
+		)
+		(pin "COL2" output
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22f53b93-1ad5-414e-afa6-2bce45fa953e")
+		)
+		(pin "COL0" output
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d87b0b2-5bed-4c59-b8bf-7a631f52b0fd")
+		)
+		(pin "COL1" output
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "69e185bf-a559-46b2-a580-ecca4526dfd1")
+		)
+		(pin "COL3" output
+			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1854762e-c66c-4a9d-8f67-ebbe661ffb98")
+		)
+		(pin "COL4" output
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f4d9ef3-c790-4900-9ab5-f18595b4a3ad")
+		)
+		(pin "ROW0" input
+			(at 142.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ad60318e-512a-4f2c-9952-bf905158321f")
+		)
+		(pin "ROW1" input
+			(at 142.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "195af442-7f30-43cd-be03-6022d48d5a1d")
+		)
+		(pin "USB_D+" bidirectional
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5d5cd281-7d4b-4069-9b8b-3cb7b82f82fa")
+		)
+		(pin "USB_D-" bidirectional
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26b38002-4168-4f7f-82f8-e21870029535")
+		)
+		(pin "COL6" output
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c69f1b19-ba64-49bb-851f-c01789bb87ef")
+		)
+		(pin "COL7" output
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a9b23a38-21d1-4399-87c2-c42fa5f12355")
+		)
+		(pin "COL5" output
+			(at 142.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a59279d0-567d-4d27-b8c2-dc5b227b6b9f")
+		)
+		(pin "COL9" output
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "958b33c5-0019-4299-bdfe-e73f927624b6")
+		)
+		(pin "COL8" output
+			(at 142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3612f989-21bc-440f-bf5f-d924a000536f")
+		)
+		(instances
+			(project "5pin_version"
+				(path "/f8cbad95-1fac-4ee0-b4c1-fc27b4678331"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
