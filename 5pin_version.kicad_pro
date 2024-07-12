@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -63,10 +63,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|147235000|54565000|f4b06327-0bdb-419a-b838-94fa0e53df9d|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|156150000|48220000|dbe65e91-c252-4b5b-9f38-321a14da7ab0|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -127,7 +124,7 @@
         "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.33,
+        "min_hole_clearance": 0.18,
         "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -494,7 +491,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/home/snowman/Documents/hardware/ready_gerbers/",
+      "plot": "../gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "5pin_version.step",
