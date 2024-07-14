@@ -381,6 +381,12 @@
 		(uuid "26f5f329-aa00-4087-b248-6a82132ee8dc")
 	)
 	(junction
+		(at 64.77 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b1a7462-8bb5-45ac-86e5-57b141d071f4")
+	)
+	(junction
 		(at 171.45 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -559,12 +565,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e298a26e-19b1-4456-8e99-be52b279f154")
-	)
-	(junction
-		(at 64.77 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7fed7a8-72a2-44a2-a26e-d0a50c1fda2d")
 	)
 	(junction
 		(at 80.01 92.71)
@@ -824,6 +824,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 74.93) (xy 80.01 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2643a3e3-9b40-4217-a258-2ea03a886604")
+	)
+	(wire
+		(pts
 			(xy 91.44 66.04) (xy 91.44 83.82)
 		)
 		(stroke
@@ -1021,16 +1031,6 @@
 			(type default)
 		)
 		(uuid "4cee63ff-14f3-4257-ae39-ced6aa76b558")
-	)
-	(wire
-		(pts
-			(xy 64.77 74.93) (xy 80.01 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eb87aea-cc24-488d-84eb-e7cf345ef41d")
 	)
 	(wire
 		(pts
@@ -1925,7 +1925,7 @@
 		(uuid "8cc08171-0ee4-4bfb-8d35-2ec609869e45")
 	)
 	(hierarchical_label "COL4"
-		(shape input)
+		(shape output)
 		(at 138.43 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1937,7 +1937,7 @@
 		(uuid "0b640448-fb05-494d-a840-d3f875d46344")
 	)
 	(hierarchical_label "COL6"
-		(shape input)
+		(shape output)
 		(at 168.91 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1949,7 +1949,7 @@
 		(uuid "11206009-f69d-4e42-bbbb-b025b8475595")
 	)
 	(hierarchical_label "COL3"
-		(shape input)
+		(shape output)
 		(at 123.19 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1961,7 +1961,7 @@
 		(uuid "1556b9d0-4822-4006-b7bc-0938a452e1f7")
 	)
 	(hierarchical_label "ROW0"
-		(shape output)
+		(shape input)
 		(at 52.07 74.93 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1973,7 +1973,7 @@
 		(uuid "15e6dadf-de84-475c-ae34-f7f732c425b9")
 	)
 	(hierarchical_label "COL7"
-		(shape input)
+		(shape output)
 		(at 184.15 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1985,7 +1985,7 @@
 		(uuid "1a107b3a-5043-4735-9b8c-6d3b540eea3e")
 	)
 	(hierarchical_label "ROW1"
-		(shape output)
+		(shape input)
 		(at 52.07 92.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1997,7 +1997,7 @@
 		(uuid "33e7c83a-16ff-4323-a023-b0674cfd26b0")
 	)
 	(hierarchical_label "COL0"
-		(shape input)
+		(shape output)
 		(at 77.47 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2009,7 +2009,7 @@
 		(uuid "3b6202e8-0871-4666-b273-8a5e1a2bdb17")
 	)
 	(hierarchical_label "COL5"
-		(shape input)
+		(shape output)
 		(at 153.67 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2021,7 +2021,7 @@
 		(uuid "58ca0269-1dcf-4d9c-888a-8e12760b754e")
 	)
 	(hierarchical_label "COL8"
-		(shape input)
+		(shape output)
 		(at 199.39 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2033,7 +2033,7 @@
 		(uuid "67094a81-f6e4-4172-aab1-a45c417bf338")
 	)
 	(hierarchical_label "COL9"
-		(shape input)
+		(shape output)
 		(at 214.63 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2045,7 +2045,7 @@
 		(uuid "8db09b6c-8ad1-46ea-a5db-ccbc620b04fa")
 	)
 	(hierarchical_label "COL2"
-		(shape input)
+		(shape output)
 		(at 107.95 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2057,7 +2057,7 @@
 		(uuid "9a58bb0c-a9de-4a32-adb8-280f69ccb445")
 	)
 	(hierarchical_label "ROW2"
-		(shape output)
+		(shape input)
 		(at 52.07 110.49 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2069,7 +2069,7 @@
 		(uuid "e6d3e2a8-01dd-4479-bc42-76f374e31a11")
 	)
 	(hierarchical_label "COL1"
-		(shape input)
+		(shape output)
 		(at 92.71 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2151,6 +2151,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 110.49 106.68 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2167,7 +2168,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 113.03 107.9499 90)
+			(at 113.03 105.4101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,6 +2240,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 95.25 106.68 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2255,7 +2257,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 97.79 107.9499 90)
+			(at 97.79 105.4101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,6 +2329,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 110.49 71.12 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2343,7 +2346,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 113.03 72.3899 90)
+			(at 113.03 69.8501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,6 +2486,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 201.93 88.9 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2499,7 +2503,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 204.47 90.1699 90)
+			(at 204.47 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,6 +2575,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 171.45 88.9 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2587,7 +2592,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 173.99 90.1699 90)
+			(at 173.99 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,6 +2664,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 95.25 88.9 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2675,7 +2681,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 97.79 90.1699 90)
+			(at 97.79 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,6 +2821,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 171.45 106.68 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2831,7 +2838,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 173.99 107.9499 90)
+			(at 173.99 105.4101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,6 +2910,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 140.97 106.68 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2919,7 +2927,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 143.51 107.9499 90)
+			(at 143.51 105.4101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,6 +3271,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 80.01 106.68 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3279,7 +3288,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 82.55 107.9499 90)
+			(at 82.55 105.4101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,6 +3360,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 186.69 106.68 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3367,7 +3377,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 189.23 107.9499 90)
+			(at 189.23 105.4101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,6 +3449,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 156.21 106.68 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3455,7 +3466,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 158.75 107.9499 90)
+			(at 158.75 105.4101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,6 +3538,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 171.45 71.12 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3543,7 +3555,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 173.99 72.3899 90)
+			(at 173.99 69.8501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3887,6 +3899,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 125.73 71.12 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3903,7 +3916,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 128.27 72.3899 90)
+			(at 128.27 69.8501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,6 +3988,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 140.97 88.9 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3991,7 +4005,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 143.51 90.1699 90)
+			(at 143.51 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,6 +4213,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 80.01 71.12 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4215,7 +4230,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 82.55 72.3899 90)
+			(at 82.55 69.8501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,6 +4370,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 110.49 88.9 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4371,7 +4387,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 113.03 90.1699 90)
+			(at 113.03 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,6 +4459,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 201.93 71.12 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4459,7 +4476,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 204.47 72.3899 90)
+			(at 204.47 69.8501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,6 +4616,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 125.73 88.9 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4615,7 +4633,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 128.27 90.1699 90)
+			(at 128.27 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,6 +4773,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 80.01 88.9 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4771,7 +4790,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 82.55 90.1699 90)
+			(at 82.55 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,6 +4930,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 95.25 71.12 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4927,7 +4947,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 97.79 72.3899 90)
+			(at 97.79 69.8501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,6 +5087,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 64.77 106.68 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5083,7 +5104,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 67.31 107.9499 90)
+			(at 67.31 105.4101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,6 +5448,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 140.97 71.12 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5443,7 +5465,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 143.51 72.3899 90)
+			(at 143.51 69.8501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5787,6 +5809,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 156.21 71.12 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5803,7 +5826,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 158.75 72.3899 90)
+			(at 158.75 69.8501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,6 +6034,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 64.77 88.9 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6027,7 +6051,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 67.31 90.1699 90)
+			(at 67.31 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,6 +6191,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 201.93 106.68 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6183,7 +6208,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 204.47 107.9499 90)
+			(at 204.47 105.4101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,6 +6280,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 186.69 71.12 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6271,7 +6297,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 189.23 72.3899 90)
+			(at 189.23 69.8501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,6 +6369,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 64.77 71.12 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6359,7 +6386,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 67.31 72.3899 90)
+			(at 67.31 69.8501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,6 +6458,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 156.21 88.9 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6447,7 +6475,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 158.75 90.1699 90)
+			(at 158.75 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6519,6 +6547,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 125.73 106.68 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6535,7 +6564,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 128.27 107.9499 90)
+			(at 128.27 105.4101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6675,6 +6704,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 186.69 88.9 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6691,7 +6721,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 189.23 90.1699 90)
+			(at 189.23 87.6301 90)
 			(effects
 				(font
 					(size 1.27 1.27)

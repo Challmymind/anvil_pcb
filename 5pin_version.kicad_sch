@@ -633,7 +633,7 @@
 				(hide yes)
 			)
 		)
-		(pin "COL4" input
+		(pin "COL4" output
 			(at 184.15 87.63 180)
 			(effects
 				(font
@@ -643,7 +643,7 @@
 			)
 			(uuid "0165d4a4-a5ea-44e7-a115-53d190502a96")
 		)
-		(pin "COL1" input
+		(pin "COL1" output
 			(at 184.15 80.01 180)
 			(effects
 				(font
@@ -653,7 +653,7 @@
 			)
 			(uuid "45dfc078-1dea-4bf3-b1b6-62aaebcede80")
 		)
-		(pin "ROW1" output
+		(pin "ROW1" input
 			(at 184.15 69.85 180)
 			(effects
 				(font
@@ -663,7 +663,7 @@
 			)
 			(uuid "77cdec2e-26b1-4fc1-b8eb-18d5af35e6ec")
 		)
-		(pin "ROW0" output
+		(pin "ROW0" input
 			(at 184.15 67.31 180)
 			(effects
 				(font
@@ -673,7 +673,7 @@
 			)
 			(uuid "ee1222ca-88ad-48bc-aecf-573a5798482f")
 		)
-		(pin "ROW2" output
+		(pin "ROW2" input
 			(at 184.15 72.39 180)
 			(effects
 				(font
@@ -683,7 +683,7 @@
 			)
 			(uuid "2969b56c-5103-4520-b442-80a4ff8d1870")
 		)
-		(pin "COL0" input
+		(pin "COL0" output
 			(at 184.15 77.47 180)
 			(effects
 				(font
@@ -693,7 +693,7 @@
 			)
 			(uuid "c82496e7-36bb-40f4-8796-eb0b93d9174d")
 		)
-		(pin "COL2" input
+		(pin "COL2" output
 			(at 184.15 82.55 180)
 			(effects
 				(font
@@ -703,7 +703,7 @@
 			)
 			(uuid "03e6a0df-de88-4ac9-8df5-c493fc6fe545")
 		)
-		(pin "COL3" input
+		(pin "COL3" output
 			(at 184.15 85.09 180)
 			(effects
 				(font
@@ -713,7 +713,7 @@
 			)
 			(uuid "16cebe23-cbbd-421a-846e-4469baed86d1")
 		)
-		(pin "COL9" input
+		(pin "COL9" output
 			(at 184.15 100.33 180)
 			(effects
 				(font
@@ -723,7 +723,7 @@
 			)
 			(uuid "f1288025-9fb0-446f-ac18-6b14fd63fccf")
 		)
-		(pin "COL5" input
+		(pin "COL5" output
 			(at 184.15 90.17 180)
 			(effects
 				(font
@@ -733,7 +733,7 @@
 			)
 			(uuid "72faf49a-35d8-4f46-9521-9656747bd66e")
 		)
-		(pin "COL6" input
+		(pin "COL6" output
 			(at 184.15 92.71 180)
 			(effects
 				(font
@@ -743,7 +743,7 @@
 			)
 			(uuid "02699633-4bfc-4f91-9af2-724643767498")
 		)
-		(pin "COL7" input
+		(pin "COL7" output
 			(at 184.15 95.25 180)
 			(effects
 				(font
@@ -753,7 +753,7 @@
 			)
 			(uuid "653f4425-827d-411f-b205-3c32a96503e7")
 		)
-		(pin "COL8" input
+		(pin "COL8" output
 			(at 184.15 97.79 180)
 			(effects
 				(font
@@ -860,7 +860,7 @@
 				(hide yes)
 			)
 		)
-		(pin "ROW2" input
+		(pin "ROW2" output
 			(at 142.24 72.39 0)
 			(effects
 				(font
@@ -870,7 +870,7 @@
 			)
 			(uuid "6c799b51-d96b-4a3d-925d-5f00814e9cfc")
 		)
-		(pin "COL2" output
+		(pin "COL2" input
 			(at 142.24 82.55 0)
 			(effects
 				(font
@@ -880,7 +880,7 @@
 			)
 			(uuid "22f53b93-1ad5-414e-afa6-2bce45fa953e")
 		)
-		(pin "COL0" output
+		(pin "COL0" input
 			(at 142.24 77.47 0)
 			(effects
 				(font
@@ -890,7 +890,7 @@
 			)
 			(uuid "1d87b0b2-5bed-4c59-b8bf-7a631f52b0fd")
 		)
-		(pin "COL1" output
+		(pin "COL1" input
 			(at 142.24 80.01 0)
 			(effects
 				(font
@@ -900,7 +900,7 @@
 			)
 			(uuid "69e185bf-a559-46b2-a580-ecca4526dfd1")
 		)
-		(pin "COL3" output
+		(pin "COL3" input
 			(at 142.24 85.09 0)
 			(effects
 				(font
@@ -910,7 +910,7 @@
 			)
 			(uuid "1854762e-c66c-4a9d-8f67-ebbe661ffb98")
 		)
-		(pin "COL4" output
+		(pin "COL4" input
 			(at 142.24 87.63 0)
 			(effects
 				(font
@@ -920,7 +920,7 @@
 			)
 			(uuid "7f4d9ef3-c790-4900-9ab5-f18595b4a3ad")
 		)
-		(pin "ROW0" input
+		(pin "ROW0" output
 			(at 142.24 67.31 0)
 			(effects
 				(font
@@ -930,7 +930,7 @@
 			)
 			(uuid "ad60318e-512a-4f2c-9952-bf905158321f")
 		)
-		(pin "ROW1" input
+		(pin "ROW1" output
 			(at 142.24 69.85 0)
 			(effects
 				(font
@@ -960,7 +960,7 @@
 			)
 			(uuid "26b38002-4168-4f7f-82f8-e21870029535")
 		)
-		(pin "COL6" output
+		(pin "COL6" input
 			(at 142.24 92.71 0)
 			(effects
 				(font
@@ -970,7 +970,7 @@
 			)
 			(uuid "c69f1b19-ba64-49bb-851f-c01789bb87ef")
 		)
-		(pin "COL7" output
+		(pin "COL7" input
 			(at 142.24 95.25 0)
 			(effects
 				(font
@@ -980,7 +980,7 @@
 			)
 			(uuid "a9b23a38-21d1-4399-87c2-c42fa5f12355")
 		)
-		(pin "COL5" output
+		(pin "COL5" input
 			(at 142.24 90.17 0)
 			(effects
 				(font
@@ -990,7 +990,7 @@
 			)
 			(uuid "a59279d0-567d-4d27-b8c2-dc5b227b6b9f")
 		)
-		(pin "COL9" output
+		(pin "COL9" input
 			(at 142.24 100.33 0)
 			(effects
 				(font
@@ -1000,7 +1000,7 @@
 			)
 			(uuid "958b33c5-0019-4299-bdfe-e73f927624b6")
 		)
-		(pin "COL8" output
+		(pin "COL8" input
 			(at 142.24 97.79 0)
 			(effects
 				(font
