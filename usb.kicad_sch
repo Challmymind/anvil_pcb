@@ -3082,8 +3082,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "82306050029"
-			(at 115.316 110.49 90)
+		(property "Value" "STS321050B100"
+			(at 113.792 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +3091,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 130.81 109.22 0)
 			(effects
 				(font
@@ -3284,7 +3284,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "82306050029"
+		(property "Value" "STS321050B100"
 			(at 140.97 110.4899 90)
 			(effects
 				(font
@@ -3293,7 +3293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 138.43 109.22 0)
 			(effects
 				(font
@@ -3354,7 +3354,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "82306050029"
+		(property "Value" "PESD5V0S1BA,115"
 			(at 146.05 87.6299 90)
 			(effects
 				(font
@@ -3363,7 +3363,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 143.51 86.36 0)
 			(effects
 				(font
